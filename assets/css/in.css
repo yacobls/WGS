@@ -1,0 +1,90 @@
+
+.right-align textarea::placeholder {
+    color: black !important;
+}
+
+.catatan textarea::placeholder {
+    color: black !important;
+}
+  .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Pusatkan elemen secara vertikal jika diperlukan */
+        }
+.catatan {
+            text-align: right;
+        }
+
+        .catatan textarea {
+            margin-right: 91px;
+            width: 21%; /* Agar textarea memenuhi lebar container */
+        }
+
+        .btn-purple {
+            background-color: #6C9EC5;
+            color: white;
+        }
+
+        .right-align {
+            text-align: left;
+        }
+    .p{
+        color: black;
+    }
+     .center-button {
+            text-align: center;
+        }
+
+        /* Gaya untuk table, th, dan td */
+.table-shopping {
+  font-size: 15px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Gaya untuk th dan td */
+.table-shopping th, .table-shopping td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #333; /* Warna teks hitam pada sel data */
+}
+
+/* Gaya untuk th */
+.table-shopping th {
+  background-color: #f2f2f2; /* Latar belakang sedikit gelap untuk elemen th */
+  color: black; /* Warna teks elemen th */
+}
+
+/* Gaya untuk baris ganjil tabel */
+.table-shopping tr:nth-child(odd) td {
+  background-color: #fff;  /* Warna latar belakang sedikit berbeda untuk baris ganjil */
+}
+
+/* Gaya untuk baris genap tabel */
+.table-shopping tr:nth-child(even) td {
+  background-color: #fff; /* Warna latar belakang putih untuk baris genap */
+}
+
+ input::placeholder {
+      color: black !important;
+    }
+
+td.qty-column input {
+      width: 55px !important; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+    }
+
+td.nosp-column input {
+      width: 50px !important; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+    }
+
+td.satuan-column input {
+      width: 120px !important; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+    }
+td.stock-column input {
+      width: 55px !important; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+    }
+
+    td.spk-column input {
+      width: 150px !important; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+    }

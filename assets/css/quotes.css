@@ -1,0 +1,173 @@
+    /* Gaya untuk table, th, dan td */
+
+.table-shopping {
+  font-size: 15px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Gaya untuk th dan td */
+.table-shopping th, .table-shopping td {
+  border: 1px  solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #333; /* Warna teks hitam pada sel data */
+}
+
+/* Gaya untuk th */
+/* Gaya untuk elemen <th> (header) */
+.table-shopping th {
+    border: 1px solid black; /* Menambah garis border sebanyak 1px dan berwarna hitam */
+    padding: 10px; /* Memberikan padding agar isi sel tabel terlihat lebih baik */
+    text-align: left; /* Menetapkan alignment teks menjadi kiri */
+    background-color: #f2f2f2; /* Warna latar belakang untuk elemen <th> */
+    color: black;
+}
+
+
+/* Gaya untuk baris ganjil tabel */
+.table-shopping tr:nth-child(odd) td {
+  background-color: #fff;  /* Warna latar belakang sedikit berbeda untuk baris ganjil */
+}
+
+/* Gaya untuk baris genap tabel */
+.table-shopping tr:nth-child(even) td {
+  background-color: #fff; /* Warna latar belakang putih untuk baris genap */
+}
+
+ input::placeholder {
+      color: black !important;
+    }
+
+td.qty-column input {
+      width: 100px !important; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+    }
+td.satuan-column input {
+      width: 120px !important; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+    }
+
+  .right-align {
+    flex: 1;
+    text-align: right;
+    padding-right: 200px;
+  }
+
+   .center-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; /* Sesuaikan margin sesuai kebutuhan */
+    }
+    .p{
+        color: black;
+    }
+
+.custom-class {
+    color: black;
+}
+ .modal-content {
+        width: 80%; /* You can adjust the percentage based on your preference */
+        margin: auto; /* Center the modal horizontally */
+    }
+
+    /* Increase the height of the modal content */
+    .modal-dialog {
+        max-width: 90%; /* Adjust the maximum width of the modal */
+        height: 90vh; /* Set the height to 90% of the viewport height */
+        margin: 10px auto; /* Add some margin for better appearance */
+    }
+
+  /* Gaya untuk tombol "View Cart" */
+  .btn-success {
+    color: black; /* Warna teks */
+    background-color: #28a745; /* Warna latar belakang */
+    border-color: #28a745; /* Warna border */
+  }
+  /* Ganti warna placeholder menjadi putih */
+::placeholder {
+    color: black !important;
+}
+ /* Gaya untuk judul modal "Your Shopping Cart" */
+  .modal-title {
+    color: black; /* Warna teks */
+    background-color: whitesmoke;
+  }
+
+  /* Gaya untuk tombol "Close" dan "Checkout" dalam modal */
+  
+    .btn-secondary {    background-color: #8B4513; /* Warna kecoklatan, contoh menggunakan kode warna hex */
+    color: #fff; /* Warna teks, diatur menjadi putih agar kontras */
+    border-color: #8B4513; /* Warna border sesuai dengan background color */
+}
+
+/* Jika ingin memberikan efek hover pada tombol */
+.btn-secondary:hover {
+    background-color: #654321; /* Warna kecoklatan yang berbeda saat tombol dihover */
+    border-color: #654321; /* Warna border sesuai dengan background color hover */
+    color: #fff; /* Warna teks saat tombol dihover */
+}
+
+  input::placeholder {
+    border: none;
+    color: whitesmoke;
+}
+.nopo::placeholder {
+    color: black;
+}
+  .btn-success {
+    color: blue; /* Warna teks */
+    background-color: #007bff; /* Warna latar belakang */
+    border-color: #007bff; /* Warna border */
+  }
+
+  /* Gaya untuk teks harga dalam modal */
+  .price {
+    color: #28a745; /* Warna teks hijau untuk harga */
+  }
+
+ /* Gaya untuk tabel dalam modal */
+ /* Gaya untuk tabel dengan class "table-shopping" dalam modal */
+/* Gaya untuk tabel dengan class "table-shopping" dalam modal */
+  .table-shopping {
+        font-size: 13px; /* Adjust font size */
+        width: 20%; /* Set the table width to 100% */
+        height: 20%;
+
+    }
+
+    .table-shopping th, .table-shopping td {
+        padding: 4px 6px; /* Adjust padding */
+    }
+
+.table-shopping th:first-child,
+    .table-shopping td:first-child,
+    .table-shopping th:nth-child(3),
+    .table-shopping td:nth-child(3),
+    .table-shopping th:nth-child(7),
+    .table-shopping td:nth-child(7) {
+        width: 5%; /* Adjust the width of the specified columns */
+    }
+.modal-content {
+      width: 100%;
+    }
+/* Gaya untuk elemen <th> (header) */
+.table-shopping th {
+    border: 1px solid black; /* Menambah garis border sebanyak 1px dan berwarna hitam */
+    padding: 10px; /* Memberikan padding agar isi sel tabel terlihat lebih baik */
+    text-align: left; /* Menetapkan alignment teks menjadi kiri */
+    background-color: #f2f2f2; /* Warna latar belakang untuk elemen <th> */
+    color: black;
+}
+   .table-shopping th[style^="width: 5%"],
+    .table-shopping td[style^="width: 5%"] {
+        width: 5%;
+    }
+
+/* Gaya untuk elemen <td> (data) */
+.table-shopping td {
+    border: 1px solid black; /* Menambah garis border sebanyak 1px dan berwarna hitam */
+    padding: 10px; /* Memberikan padding agar isi sel tabel terlihat lebih baik */
+    text-align: center; /* Menetapkan alignment teks menjadi kiri */
+    background-color: #ffffff; /* Warna latar belakang untuk elemen <td> */
+    color: black;
+}
+
